@@ -1,0 +1,35 @@
+.like {
+  width: 92%;
+  margin-left: 4%;
+  margin-right: 4%; }
+  .like > p {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px; }
+  .like ul {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 80px; }
+    .like ul li {
+      float: left;
+      margin-top: 30px;
+      margin-right: 4%;
+      width: 48%; }
+      .like ul li p:nth-of-type(1) {
+        font-size: 18px;
+        margin: 5px 0;
+        height: 36px; }
+      .like ul li img {
+        width: 100%; }
+      .like ul li p:nth-of-type(2) {
+        margin-top: 20px;
+        font-size: 16px; }
+        .like ul li p:nth-of-type(2) span:nth-of-type(1) {
+          color: red; }
+        .like ul li p:nth-of-type(2) span:nth-of-type(2) {
+          color: #999;
+          text-decoration: line-through;
+          margin-left: 10px; }
+    .like ul li:nth-of-type(even) {
+      margin-right: 0; }

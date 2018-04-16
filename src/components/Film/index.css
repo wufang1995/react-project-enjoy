@@ -1,0 +1,37 @@
+#film > p {
+  height: 46px;
+  border-bottom: 1px solid #f6f6f6; }
+  #film > p span {
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin-top: 12px;
+    border-right: 1px solid #f8f8f8; }
+
+#film ul li {
+  height: 162px;
+  padding-left: 18px;
+  padding-right: 28px;
+  border-bottom: 1px solid #f2f2f2; }
+  #film ul li img {
+    width: 50%;
+    float: left;
+    margin-top: 19px; }
+  #film ul li > p {
+    margin-top: 19px;
+    float: left;
+    width: 47%;
+    margin-left: 11px; }
+    #film ul li > p span:nth-of-type(1) {
+      font-weight: 100;
+      font-size: 18px;
+      height: 86px;
+      display: block; }
+    #film ul li > p span:nth-of-type(2) {
+      font-size: 16px;
+      color: #ff5050; }
+    #film ul li > p span:nth-of-type(3) {
+      margin-left: 20px;
+      color: #666;
+      font-size: 16px;
+      text-decoration: line-through; }
